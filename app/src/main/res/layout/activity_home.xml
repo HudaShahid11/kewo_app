@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home"
+    android:background="@drawable/bg">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg"
+                android:scaleType="fitXY"
+                android:src="@drawable/course"
+                android:id="@+id/course"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg"
+                android:scaleType="fitXY"
+                android:src="@drawable/categories"
+                android:id="@+id/category"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg"
+                android:scaleType="fitXY"
+                android:src="@drawable/vacancy" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg"
+                android:scaleType="fitXY"
+                android:src="@drawable/shop" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg"
+                android:scaleType="fitXY"
+                android:src="@drawable/profile" />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg"
+                android:scaleType="fitXY"
+                android:src="@drawable/gallery"
+                android:id="@+id/gallery"/>
+
+
+
+        </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".category"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+    <GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:columnCount="3"
+    android:rowCount="5"
+    android:layout_marginTop="20dp">
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Technology"
+        android:textSize="12dp"
+        android:drawableTop="@drawable/ic_tech"
+        android:background="@color/white"
+        android:layout_margin="5dp"
+        android:paddingTop="10dp"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Science"
+            android:fontFamily="@font/lato_bold"
+            android:textSize="12dp"
+            android:drawableTop="@drawable/ic_science"
+            android:background="@color/white"
+            android:layout_margin="5dp"
+            android:paddingTop="10dp"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Health"
+            android:textSize="12dp"
+            android:drawableTop="@drawable/ic_health"
+            android:background="@color/white"
+            android:layout_margin="5dp"
+            android:paddingTop="10dp"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Business"
+            android:fontFamily="@font/lato_bold"
+            android:textSize="12dp"
+            android:drawableTop="@drawable/ic_business"
+            android:background="@color/white"
+            android:layout_margin="5dp"
+            android:paddingTop="10dp"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Language"
+            android:fontFamily="@font/lato_bold"
+            android:textSize="12dp"
+            android:drawableTop="@drawable/ic_lang"
+            android:background="@color/white"
+            android:layout_margin="5dp"
+            android:paddingTop="10dp"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Humanities"
+            android:fontFamily="@font/lato_bold"
+            android:textSize="12dp"
+            android:drawableTop="@drawable/ic_human"
+            android:background="@color/white"
+            android:layout_margin="5dp"
+            android:paddingTop="10dp"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Marketing"
+            android:textSize="12dp"
+            android:drawableTop="@drawable/ic_marketing"
+            android:background="@color/white"
+            android:layout_margin="5dp"
+            android:paddingTop="10dp"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Lifestyle"
+            android:textSize="12dp"
+            android:drawableTop="@drawable/ic_lifestyle"
+            android:background="@color/white"
+            android:layout_margin="5dp"
+            android:paddingTop="10dp"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Management"
+            android:textSize="12dp"
+            android:drawableTop="@drawable/ic_mgt"
+            android:background="@color/white"
+            android:layout_margin="5dp"
+            android:paddingTop="10dp"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Differently Abled"
+            android:textSize="12dp"
+            android:drawableTop="@drawable/ic_diffeernt"
+            android:background="@color/white"
+            android:layout_margin="5dp"
+            android:paddingTop="10dp"/>
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Travel and tour"
+            android:textSize="12dp"
+            android:drawableTop="@drawable/ic_travel"
+            android:background="@color/white"
+            android:layout_margin="5dp"
+            android:paddingTop="10dp"/>
+
+
+    </GridLayout>
+    </LinearLayout>
+</ScrollView>

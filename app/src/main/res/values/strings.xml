@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">kewo</string>
+    <string name="forget_pw"><u><b>Forget Password</b></u></string>
+    <string name="sign_in"><u><b>Sign In</b></u></string>
+</resources>
